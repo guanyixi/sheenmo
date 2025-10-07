@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
         output: "dist",
         includes: "_includes",
       },
+      pathPrefix: "/sheenmo/"
     };
   };
   
