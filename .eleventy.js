@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-    // Copy static assets
+    // Copy compiled CSS and JS to output
     eleventyConfig.addPassthroughCopy({ "src/css": "css" });
     eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   
