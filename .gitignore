@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Optional: if you ever use a .env or similar file
+.env
+
+# OS / Editor stuff
+.DS_Store
+*.log
