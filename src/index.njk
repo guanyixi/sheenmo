@@ -3,6 +3,219 @@ layout: layout.njk
 title: Home
 ---
 
-<div style="height:100vh; display:flex; justify-content:center; align-items:center;">
-<h1><strong>Sheenmo.com</strong> is coming soon...</h1>
+<header>
+    <a class="logo" href="{{ '/' | url }}"><img src="/images/logo-black.svg" alt="Sheenmo logo"></a>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#process">Process</a></li>
+        </ul>
+    </nav>
+    <a href="#contact" class="btn">Contact</a>
+</header>
+<div class="hero container text-center">
+    <div class="hero-message">
+        <h1>Web Development Partner for Result-Driven Marketing Teams</h1>
+        <h2 class="h4 text-gray">WordPress development with custom features and advanced functionality.</h2>
+        <div><a href="#services"><img src="/images/arrow_circle_down.svg" alt="next section"></a></div>
+    </div>
 </div>
+<div id="services" class="services container-lg text-center">
+    <h2>Building Web Features to Support Every Stage of the User Journey</h2>
+    <h3 class="h4 text-gray">Development, enhancements, and ongoing maintenance</h3>
+    <div class="stages">
+        <div class="stage">
+            <div>
+                <img src="/images/visibility.svg" alt="eye icon">
+                <h4>Awareness</h4>
+                <h5>Introduce</h5>
+            </div>
+            <ul>
+                <li>Blog posts, articles</li>
+                <li>Landing pages</li>
+                <li>Testimonials</li>
+                <li>Guides, Reports</li>
+                <li>SEO & Analytics</li>
+            </ul>
+        </div>
+        <div class="stage">
+            <div>
+                <img src="/images/cognition.svg" alt="think">
+                <h4>Consideration</h4>
+                <h5>Educate & Evaluate</h5>
+            </div>
+            <ul>
+                <li>Case studies & portfolio</li>
+                <li>Detailed service/product pages</li>
+                <li>Calculators, demos, quizzes</li>
+                <li>FAQs and comparison charts</li>
+                <li>Chatbot, help center</li>
+            </ul>
+        </div>
+        <div class="stage">
+            <div>
+                <img src="/images/all_match.svg" alt="decide">
+                <h4>Decision</h4>
+                <h5>Convert</h5>
+            </div>
+            <ul>
+                <li>Clear call-to-action buttons</li>
+                <li>Web forms</li>
+                <li>Schedule a Call</li>
+                <li>CRM integration</li>
+            </ul>
+        </div>
+        <div class="stage">
+            <div>
+                <img src="/images/share_reviews.svg" alt="share">
+                <h4>Advocacy</h4>
+                <h5>Share & Refer</h5>
+            </div>
+            <ul>
+                <li>Social sharing buttons</li>
+                <li>Referral programs</li>
+                <li>Events</li>
+                <li>Encourage reviews and mentions</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="clients" class="clients container text-center">
+    <h2>Ideal for Medium-Sized Companies Seeking Reliable Development Expertise</h2>
+    <h2 class="h4 text-gray">Sheenmo is a good fit if you:</h2>
+    <div class="clients-content">
+        <img class="clients-image" src="/images/abstract.jpg" alt="abstract">
+        <div class="good-fit">
+            <div>
+                <img src="/images/business_center.svg" alt="business">
+                <h3>Work in a marketing team at a medium-sized company</h3>
+            </div>
+            <div>
+                <img src="/images/partner_exchange.svg" alt="partner">
+                <h3>Need consistent web development support without hiring in-house developers</h3>
+            </div>
+            <div>
+                <img src="/images/tornado.svg" alt="funnel">
+                <h3>Focus on optimizing the entire marketing funnel</h3>
+            </div>
+            <div>
+                <img src="/images/area_chart.svg" alt="chart">
+                <h3>Care about SEO, performance, and measurable results</h3>
+            </div>
+            <div>
+                <img src="/images/psychology.svg" alt="brain">
+                <h3>Manage a mid-to-large-scale website that needs to be easy to update and scale</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="process" class="process container">
+    <h2 class="text-center">How to Work With Us</h2>
+    <div class="process-content">
+        <div>
+            <img src="/images/check_box.svg" alt="checkbox">
+            <div>
+                <h3>Understand the Goals</h3>
+                <p>We start by learning about your marketing objectives, target audience, and desired outcomes.</p>
+            </div>
+        </div>
+        <div>
+            <img src="/images/check_box.svg" alt="checkbox">
+            <div>
+                <h3>Website Audit</h3>
+                <p>We review your current site’s structure, performance, and functionality to identify what’s working and what can be improved.</p>
+            </div>
+        </div>
+        <div>
+            <img src="/images/check_box.svg" alt="checkbox">
+            <div>
+                <h3>Plan Proposal</h3>
+                <p>Based on your goals and audit, we propose a development plan with clear priorities and estimated hours.</p>
+            </div>
+        </div>
+        <div>
+            <img src="/images/check_box.svg" alt="checkbox">
+            <div>
+                <h3>Time-Based Contract</h3>
+                <p>We work on a flexible agreement, typically starting at a set number of hours per week. The arrangement can scale as your needs grow.</p>
+            </div>
+        </div>
+        <div>
+            <img src="/images/check_box.svg" alt="checkbox">
+            <div>
+                <h3>Ongoing Work and Billing</h3>
+                <p>We join your workflow, deliver continuous improvements, and bill for the hours worked.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="contact text-center">
+    <h2>Contact</h2>
+    <h3 class="h4 text-gray" style="display:none;">Let's find out if we're a good fit.</h3>
+    <p class="booked-message text-gray h5">We're fully booked at the moment and can't take on new projects right now. Feel free to check back soon. We'll reopen availability when things free up.</p>
+    <form action="https://formspree.io/f/xanpdvdk" method="POST" style="display:none;">
+
+        <div class="form-row">
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-row">
+            <label for="company">Company Name*</label>
+            <input type="text" id="company" name="company" required>
+        </div>    
+
+        <div class="form-row">
+            <label for="role">Your Role*</label>
+            <select id="role" name="role" required>
+                <option value="">Select your role</option>
+                <option>Lead of Marketing</option>
+                <option>Marketing Manager</option>
+                <option>Marketing Specialist</option>
+                <option>Designer</option>
+                <option>Other</option>
+            </select>
+        </div>    
+
+        <div class="form-row">
+            <label for="website">Website URL</label>
+            <input type="text" id="website" name="website" placeholder="example.com">
+        </div>    
+
+        <div class="form-row">
+            <fieldset>
+                <legend>What kind of support are you looking for?*</legend>
+                <label><input type="checkbox" name="support[]" value="Ongoing web development partnership" required> Ongoing web development partnership</label>
+                <label><input type="checkbox" name="support[]" value="Adding new features to an existing WordPress site"> Adding new features to an existing WordPress site</label>
+                <label><input type="checkbox" name="support[]" value="Website maintenance and performance improvements"> Website maintenance and performance improvements</label>
+                <label><input type="checkbox" name="support[]" value="Building a new WordPress site"> Building a new WordPress site</label>
+                <label><input type="checkbox" name="support[]" value="One-time project"> One-time project (note: I focus on ongoing partnerships)</label>
+            </fieldset>
+        </div>
+
+        <div class="form-row">
+            <label for="cms">CMS*</label>
+            <select id="cms" name="cms" required>
+                <option value="">Select CMS</option>
+                <option>WordPress (current or planned)</option>
+                <option>Other CMS (we’d need to discuss migration to WordPress)</option>
+                <option>We haven’t chosen a CMS yet</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Anything else you'd like to share..."></textarea>
+        </div>
+       
+        <button class="btn" type="submit">Send</button>
+    </form>
+
+</div>
+
+<footer class="text-center">
+   ©<span id="year"></span> Sheenmo LLC
+</footer>
